@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: FinanceTrackerApp
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/FinanceTrackerDB
+    username: postgres
+    password: Enriki0709
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
